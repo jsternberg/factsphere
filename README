@@ -2,7 +2,7 @@ IRC bot that randomly spews quotes said by the Fact Sphere from Portal.
 
 The turn on the bot, you need to specify the IRC server and any channels you wish the IRC bot to join. For example:
 
-	python factsphere.py --host irc.freenode.net --channels #factsonly
+	python factsphere.py --host irc.freenode.net --channels "#factsonly"
 
 This would cause the factbot to connect to irc.freenode.net and enter the "#factsonly" channel. Any number of channels can be specified to --channels.
 
