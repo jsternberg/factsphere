@@ -1,0 +1,11 @@
+IRC bot that randomly spews quotes said by the Fact Sphere from Portal.
+
+The turn on the bot, you need to specify the IRC server and any channels you wish the IRC bot to join. For example:
+
+	python factsphere.py --host irc.freenode.net --channels #factsonly
+
+This would cause the factbot to connect to irc.freenode.net and enter the "#factsonly" channel. Any number of channels can be specified to --channels.
+
+To disconnect, use ctrl+c.
+
+In order to activate the factsphere, message either in a public channel or private message it the text "!fact". It will message you, or the channel, back.
